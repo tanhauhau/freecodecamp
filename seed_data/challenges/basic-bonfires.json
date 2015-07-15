@@ -376,6 +376,8 @@
       "tests": [
         "assert.strictEqual(repeat('*', 3), '***', 'should repeat a string n times');",
         "assert.strictEqual(repeat('abc', 3), 'abcabcabc', 'should repeat a string n times');",
+        "assert.strictEqual(repeat('abc', 10), 'abcabcabcabcabcabcabcabcabcabc', 'should repeat a string n times');",
+        "assert.strictEqual(repeat('abc', 0), '', 'should repeat a string n times');",
         "assert.strictEqual(repeat('abc', -2), '', 'should return an empty string for negative numbers');"
       ],
       "MDNlinks": [
